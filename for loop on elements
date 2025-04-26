@@ -1,0 +1,21 @@
+import java.util.Vector;
+
+class vector{
+public static void main(String args[]){
+    Vector <String> v=new Vector<>();
+    
+    v.addElement("sugan");
+    v.addElement("gokul");
+    v.addElement("hari");
+    v.addElement("ragu");
+    
+    System.out.println("my name is "+v);
+    System.out.println("vector size is "+v.size());
+    System.out.println("First Element is: " + v.elementAt(0));
+    
+    for (int i=3;i<v.size();i++){
+        System.out.println(v.get(i));
+    }
+}
+}
+// dought on why we are using for loop
