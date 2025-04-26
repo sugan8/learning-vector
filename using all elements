@@ -1,0 +1,15 @@
+import java.util.Vector;
+
+class vector{
+public static void main(String args[]){
+    Vector <String> v=new Vector<>();
+    
+    v.addElement("sugan");
+    v.addElement("gokul");
+    
+    
+    System.out.println("my name is "+v);
+    System.out.println("vector size is "+v.size());
+    System.out.println("First Element is: " + v.elementAt(0));
+}
+}
